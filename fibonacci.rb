@@ -33,6 +33,6 @@ def merge_sort(array)
   end
   return sorted + left + right 
   # puts left
-  # puts right
+  # puts right 
 end
 p merge_sort([55, -20, 10, 80, 100, 1, 33, 32, -8])
