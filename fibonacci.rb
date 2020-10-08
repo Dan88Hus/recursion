@@ -31,7 +31,7 @@ def merge_sort(array)
   until left.empty? || right.empty?
     left[0] <= right [0] ? sorted << left.shift : sorted<< right.shift
   end
-  return sorted + left + right
+  return sorted + left + right 
   # puts left
   # puts right
 end
